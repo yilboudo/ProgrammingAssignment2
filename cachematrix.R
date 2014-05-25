@@ -1,4 +1,4 @@
-## Goal: Write an R function is able to cache potentially time-consuming computations.
+## Goal: Write an R function that is able to cache potentially time-consuming computations.
 
 ## Write a short comment describing this function
 ## This function creates a special "matrix" object that can cache its inverse.
@@ -40,5 +40,5 @@ cacheSolve <- function(x, ...) {
   i <- solve(data, ...)
   x$setinverse(i)
   i
-        ## Return a matrix that is the inverse of 'x'
+    
 }
